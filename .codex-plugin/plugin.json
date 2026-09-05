@@ -1,0 +1,6 @@
+{
+  "name": "cloisonne-dream",
+  "version": "0.1.0",
+  "description": "A skill-only plugin for consistent modern gold-wire cloisonne enamel image restyling.",
+  "skills": "./skills/"
+}
