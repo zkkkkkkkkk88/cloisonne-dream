@@ -4,6 +4,33 @@ A reusable image-restyling skill that converts a source image into a **modern go
 
 > **Core principle: change the medium, not the scene.**
 
+## Showcase
+
+<table>
+  <tr>
+    <td align="center" width="50%">
+      <img src="assets/examples/example-01.png" alt="Cloisonne Dream example 01" width="100%"><br>
+      <sub><b>Example 01</b> · Character / garden scene</sub>
+    </td>
+    <td align="center" width="50%">
+      <img src="assets/examples/example-02.png" alt="Cloisonne Dream example 02" width="100%"><br>
+      <sub><b>Example 02</b> · Dragon / castle scene</sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="50%">
+      <img src="assets/examples/example-03.png" alt="Cloisonne Dream example 03" width="100%"><br>
+      <sub><b>Example 03</b> · Character / dragon scene</sub>
+    </td>
+    <td align="center" width="50%">
+      <img src="assets/examples/example-04.png" alt="Cloisonne Dream example 04" width="100%"><br>
+      <sub><b>Example 04</b> · Fantasy architecture scene</sub>
+    </td>
+  </tr>
+</table>
+
+These examples are used as visual references for the same consistent material language: **fine metallic partitions, polished enamel color fields, strong silhouettes, clean non-photographic rendering, and no unrelated decorative invention.**
+
 ## What it is
 
 Cloisonne Dream is designed for image-to-image restyling where photographic or CGI micro-texture is undesirable. It replaces photo-like detail with clean enamel color fields, fine metallic partition lines, controlled glazed highlights, and handcrafted visual structure.
@@ -16,6 +43,12 @@ The style is intentionally strict: it should not invent suns, moons, clouds, bir
 cloisonne-dream/
 ├── .codex-plugin/
 │   └── plugin.json
+├── assets/
+│   └── examples/
+│       ├── example-01.png
+│       ├── example-02.png
+│       ├── example-03.png
+│       └── example-04.png
 ├── skills/
 │   └── cloisonne-dream/
 │       ├── SKILL.md
@@ -59,4 +92,4 @@ If the source really contains a sun, moon, bird, cloud, flower, snowflake, or si
 
 Current draft: **0.1.0**
 
-The first version is focused on style consistency and source fidelity. Future versions can add curated example assets and stronger evaluation coverage.
+The first version is focused on style consistency, source fidelity, and visual regression through the curated example set.
