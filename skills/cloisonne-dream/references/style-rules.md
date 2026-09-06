@@ -1,8 +1,8 @@
-# Cloisonne Dream Style Rules v0.3
+# Cloisonne Dream Style Rules v0.4
 
-## 1. Preserve the scene, redesign the surface
+## 1. Preserve the scene, redesign the surface, decorate with intent
 
-This is a scene-faithful medium-conversion skill.
+This is a scene-faithful medium-conversion skill with controlled ornamental freedom.
 
 The source scene must remain recognizable:
 - same main subject count;
@@ -12,33 +12,46 @@ The source scene must remain recognizable:
 - same object relationships;
 - same environment identity.
 
-But the surfaces of existing objects may be artistically redesigned in a richer, more decorative, more luminous cloisonne manner.
+Existing surfaces may be redesigned in a richer, more decorative, more luminous cloisonne manner, and a limited ornamental motif layer may be added when it improves composition and style identity.
 
-## 2. Forbidden hallucinated scene additions
+## 2. Decorative motif policy
 
-A common failure mode is inventing decorative scene symbols simply because they are associated with enamel, fantasy art, or Chinese decorative art.
+Decorative cloisonne motifs are allowed in v0.4.
 
-Strictly prohibit spontaneous additions such as:
-- decorative suns;
-- golden circular discs;
-- moons;
-- stars;
-- flying birds;
-- stylized cloud motifs;
-- flowers floating in space;
-- mountains not present in the source;
-- lanterns;
-- floating jewels;
-- floating snowflake symbols;
-- extra buildings;
-- extra creatures;
-- extra vegetation.
+Allowed motif families:
+- one sun disc or moon disc;
+- a few star, sparkle, or snow-crystal motifs;
+- stylized cloud bands or auspicious cloud ribbons;
+- floral or leaf emblems;
+- geometric ornamental bands or framing accents;
+- tiny flat ornamental bird silhouettes when they read as pattern rather than new narrative animals.
 
-Exception: the element may be rendered if it genuinely exists in the source image or the user explicitly requests it.
+Constraints:
+- at most one dominant motif anchor;
+- supporting motifs remain sparse;
+- motif type must match the source mood;
+- placement responds to negative space and focal balance;
+- no fixed top-left sun template;
+- no face, dragon-head, hand, prop, or landmark occlusion;
+- motifs must stay secondary to the source subject;
+- motifs must feel integrated into enamel design rather than inserted as realistic new scene objects.
 
-## 3. Surface enrichment is allowed
+## 3. Major scene additions remain forbidden
 
-Do not confuse “no new scene object” with “no artistic redesign.”
+Do not add:
+- new characters;
+- new major creatures;
+- extra buildings that change the setting;
+- large new landscape masses;
+- new vehicles;
+- major props that change the narrative;
+- extra vegetation that alters environment identity.
+
+A decorative motif is allowed only when it behaves as ornament, not as a new narrative subject.
+
+## 4. Surface enrichment is encouraged
+
+Do not confuse scene fidelity with conservative styling.
 
 Allowed within existing objects:
 - richer garment partitioning;
@@ -48,9 +61,7 @@ Allowed within existing objects:
 - decorative architectural paneling;
 - ornamental internal patterning embedded in dress, armor, scales, water, stone, fabric, cloud, or foliage surfaces already present.
 
-These enhancements must stay within existing object or surface boundaries.
-
-## 4. Brightness uplift
+## 5. Brightness uplift
 
 The output should generally be brighter, cleaner, and more luminous than the raw source without becoming washed out.
 
@@ -60,7 +71,8 @@ Use:
 - richer jewel-like blues, greens, lavenders, reds, or neutrals;
 - more polished highlight treatment;
 - controlled translucent glaze in suitable materials;
-- improved readability and finish.
+- improved readability and finish;
+- restrained luminous highlights on decorative motifs.
 
 Avoid:
 - muddy low-value rendering;
@@ -69,7 +81,7 @@ Avoid:
 - overexposure;
 - over-yellowing everything with gold.
 
-## 5. Gold-line discipline
+## 6. Gold-line discipline
 
 Gold is structural and decorative, but not random clutter.
 
@@ -79,7 +91,8 @@ Use gold or warm brass mainly for:
 - garment structure;
 - scale segmentation;
 - architectural edges;
-- embedded ornamental surface detail.
+- embedded ornamental detail;
+- the boundaries of selected decorative motifs.
 
 Avoid:
 - random filigree floating in the air;
@@ -87,7 +100,7 @@ Avoid:
 - equal outlining on every tiny fragment;
 - turning the whole image into a generic gold-outline effect.
 
-## 6. Density hierarchy
+## 7. Density hierarchy
 
 The style must show different line-density zones:
 
@@ -95,11 +108,11 @@ The style must show different line-density zones:
 - Flow Cells: **75%–95%**;
 - Quiet Cells: **20%–35%**.
 
-Flow Cells are the most ornate and should carry much of the skill’s beauty.
+Flow Cells are the most ornate and should carry much of the skill's beauty.
 
-Quiet Cells should still look polished and luminous, not unfinished.
+Quiet Cells should still look polished and luminous and may host restrained decorative motifs.
 
-## 7. Source-aware color, not literal dullness
+## 8. Source-aware color, not literal dullness
 
 Preserve source hue identity, but do not remain trapped by dull source rendering.
 
@@ -117,7 +130,9 @@ Bad:
 - neon oversaturation;
 - washing all colors into pale pastels.
 
-## 8. No photography residue
+Decorative motifs should use colors compatible with the source palette.
+
+## 9. No photography residue
 
 The final output should not feel like a filtered photo.
 
@@ -132,9 +147,9 @@ Remove or avoid:
 
 Use enamel surfaces, polished glaze, and stylized material shading instead.
 
-## 9. Beauty threshold
+## 10. Beauty threshold
 
-A successful Cloisonne Dream output should not only be faithful. It should also feel more beautiful, polished, luminous, and collectible than the source.
+A successful Cloisonne Dream output should not only be faithful. It should also feel more beautiful, polished, luminous, decorative, and collectible than the source.
 
 If the result is accurate but visually underwhelming, increase:
 - luminosity;
@@ -142,11 +157,10 @@ If the result is accurate but visually underwhelming, increase:
 - Flow Cell detail;
 - surface elegance;
 - decorative refinement within existing objects;
-- highlight separation.
+- highlight separation;
+- one controlled motif anchor if the composition has suitable negative space.
 
-Do not solve underwhelming results by inventing new scene objects.
-
-## 10. Final consistency test
+## 11. Final consistency test
 
 A successful output should satisfy all of these:
 - the source is still immediately traceable;
@@ -155,7 +169,9 @@ A successful output should satisfy all of these:
 - Identity / Flow / Quiet hierarchy is visible;
 - one or two Gold-Line Continuity paths feel intentional;
 - Flow Cells are visibly richer than Quiet Cells;
-- existing surfaces are artistically upgraded without new scene-level inventions;
+- existing surfaces are artistically upgraded;
+- any added motif remains secondary and composition-aware;
+- no repeated template sun placement appears across unrelated images;
 - source colors remain recognizable but more enamel-like;
 - the image reads as cloisonne enamel rather than stained glass;
 - the visual language remains clean at thumbnail size.
