@@ -1,6 +1,6 @@
 {
   "name": "cloisonne-dream",
-  "version": "0.3.0",
-  "description": "A skill-only plugin for luminous, scene-faithful modern gold-wire cloisonne enamel restyling with bold surface redesign.",
+  "version": "0.4.0",
+  "description": "A skill-only plugin for luminous modern gold-wire cloisonne enamel restyling with bold surface redesign and controlled decorative motifs.",
   "skills": "./skills/"
 }
