@@ -4,6 +4,17 @@ A reusable image-restyling skill that converts a source image into a **modern go
 
 > **Core principle: change the medium, not the scene.**
 
+## What makes v0.2 distinctive
+
+Cloisonne Dream is not just a material filter. Version 0.2 introduces a fixed visual grammar inspired by strong image-transformation skills:
+
+- **Identity Cells** — recognition-critical areas such as faces, landmark silhouettes, dragon heads, or signature objects. These use restrained line density.
+- **Flow Cells** — directional forms such as hair, clothing folds, wings, scales, roads, water, branches, or cloud motion. These use the richest enamel segmentation.
+- **Quiet Cells** — sky, walls, distant background, shadow masses, and other calm surfaces. These stay broad and sparse.
+- **Gold-Line Continuity** — one or two source-derived gold-line paths visually connect existing forms across the composition without inventing new objects.
+
+The goal is a repeatable visual system: **Identity → Flow → Quiet**, rather than applying the same gold outline everywhere.
+
 ## Showcase
 
 <table>
@@ -29,7 +40,7 @@ A reusable image-restyling skill that converts a source image into a **modern go
   </tr>
 </table>
 
-These examples are used as visual references for the same consistent material language: **fine metallic partitions, polished enamel color fields, strong silhouettes, clean non-photographic rendering, and no unrelated decorative invention.**
+These examples show the material family. Future v0.2 examples should additionally demonstrate the Identity / Flow / Quiet hierarchy and Gold-Line Continuity more explicitly.
 
 ## What it is
 
@@ -52,6 +63,8 @@ cloisonne-dream/
 ├── skills/
 │   └── cloisonne-dream/
 │       ├── SKILL.md
+│       ├── agents/
+│       │   └── openai.yaml
 │       └── references/
 │           ├── style-rules.md
 │           └── eval-cases.md
@@ -76,7 +89,9 @@ The skill should:
 
 - preserve subject count, identity-defining features, pose, viewpoint, framing, and scene layout;
 - preserve important source colors unless stylization requires small material adjustments;
-- convert natural edges into elegant metallic partitions;
+- separate the scene into Identity, Flow, and Quiet zones;
+- concentrate line richness in directional Flow Cells rather than outlining everything equally;
+- create one or two meaningful Gold-Line Continuity paths from existing geometry;
 - convert photographic micro-detail into enamel cells and controlled linework;
 - remove camera noise, grain, skin pores, and random photo texture;
 - avoid unrelated decorative invention;
@@ -90,6 +105,6 @@ If the source really contains a sun, moon, bird, cloud, flower, snowflake, or si
 
 ## Version
 
-Current draft: **0.1.0**
+Current draft: **0.2.0**
 
-The first version is focused on style consistency, source fidelity, and visual regression through the curated example set.
+Version 0.2 adds a distinctive structural grammar and regression criteria on top of the original source-fidelity and enamel-material rules.
