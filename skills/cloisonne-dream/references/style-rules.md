@@ -1,130 +1,161 @@
-# Cloisonne Dream Style Rules
+# Cloisonne Dream Style Rules v0.3
 
-## 1. Source content has priority
+## 1. Preserve the scene, redesign the surface
 
-This is a medium-and-structure translation skill, not a scene-redesign skill.
+This is a scene-faithful medium-conversion skill.
 
-When style and source conflict, source content wins.
+The source scene must remain recognizable:
+- same main subject count;
+- same pose;
+- same viewpoint;
+- same composition;
+- same object relationships;
+- same environment identity.
 
-Preserve subject count, pose, viewpoint, framing, object placement, architecture layout, background identity, major silhouette, spatial relationships, and important color identity.
+But the surfaces of existing objects may be artistically redesigned in a richer, more decorative, more luminous cloisonne manner.
 
-## 2. Three-zone visual grammar
+## 2. Forbidden hallucinated scene additions
 
-Every source should be interpreted through three structural zones whenever the image allows it.
+A common failure mode is inventing decorative scene symbols simply because they are associated with enamel, fantasy art, or Chinese decorative art.
 
-### Identity Cells
-Recognition-critical regions such as faces, heads, landmark silhouettes, gates, rooflines, signature costume parts, dragon heads, vehicles, or other defining anchors.
+Strictly prohibit spontaneous additions such as:
+- decorative suns;
+- golden circular discs;
+- moons;
+- stars;
+- flying birds;
+- stylized cloud motifs;
+- flowers floating in space;
+- mountains not present in the source;
+- lanterns;
+- floating jewels;
+- floating snowflake symbols;
+- extra buildings;
+- extra creatures;
+- extra vegetation.
 
-- target line density: 35%–50%;
-- clean, readable partitions;
-- minimal over-segmentation;
-- preserve defining colors and shape.
+Exception: the element may be rendered if it genuinely exists in the source image or the user explicitly requests it.
 
-### Flow Cells
-Directional forms such as hair, cloth, wings, scales, water, clouds, roads, branches, smoke, ribbons, or long perspective axes.
+## 3. Surface enrichment is allowed
 
-- target line density: 60%–80%;
-- richest segmentation in the image;
-- elongated and curved cells follow source motion and geometry;
-- strongest visual rhythm lives here.
+Do not confuse “no new scene object” with “no artistic redesign.”
 
-### Quiet Cells
-Sky, walls, broad terrain, distant scenery, soft cloud fields, shadows, and low-information surfaces.
+Allowed within existing objects:
+- richer garment partitioning;
+- more elegant dragon-scale segmentation;
+- refined wing membrane structures;
+- crystalline ice texture redesign;
+- decorative architectural paneling;
+- ornamental internal patterning embedded in dress, armor, scales, water, stone, fabric, cloud, or foliage surfaces already present.
 
-- target line density: 10%–25%;
-- large enamel fields;
-- few partitions;
-- preserve visual breathing room.
+These enhancements must stay within existing object or surface boundaries.
 
-Do not render the entire scene with one uniform line density.
+## 4. Brightness uplift
 
-## 3. Gold-Line Continuity
+The output should generally be brighter, cleaner, and more luminous than the raw source without becoming washed out.
 
-Create one or two source-derived continuity paths through the composition.
+Use:
+- clearer separation of light and dark;
+- brighter enamel whites;
+- richer jewel-like blues, greens, lavenders, reds, or neutrals;
+- more polished highlight treatment;
+- controlled translucent glaze in suitable materials;
+- improved readability and finish.
 
-A valid path follows existing direction, geometry, perspective, or motion and may visually continue from one source form into another.
+Avoid:
+- muddy low-value rendering;
+- flat dark masses;
+- dull lifeless palettes;
+- overexposure;
+- over-yellowing everything with gold.
 
-Examples:
-- hair → garment fold → railing;
-- dragon spine → wing edge → roofline;
-- road → water edge → distant facade;
-- veil → bridge → cloud contour.
+## 5. Gold-line discipline
 
-A continuity path is invalid when it becomes ornamental filigree, invents an object, ignores source perspective, or adds symbolism not present in the source.
+Gold is structural and decorative, but not random clutter.
 
-## 4. Forbidden hallucinated decorations
+Use gold or warm brass mainly for:
+- cell boundaries;
+- contour partitions;
+- garment structure;
+- scale segmentation;
+- architectural edges;
+- embedded ornamental surface detail.
 
-Strictly prohibit spontaneous additions such as decorative suns, golden circular discs, moons, stars, flying birds, stylized clouds, auspicious cloud motifs, flowers, mountains, lanterns, jewels, snowflakes, celestial patterns, extra buildings, extra creatures, or extra vegetation.
+Avoid:
+- random filigree floating in the air;
+- glitter spam;
+- equal outlining on every tiny fragment;
+- turning the whole image into a generic gold-outline effect.
 
-Exception: the element may be rendered when it genuinely exists in the source or the user explicitly asks for it.
+## 6. Density hierarchy
 
-## 5. Medium conversion
+The style must show different line-density zones:
 
-Convert:
-- photographic texture → enamel color fields;
-- natural edges → structural metal partitions;
-- fine random detail → simplified controlled shapes;
-- surface noise → polished glaze;
-- realistic pores → smooth illustrated skin treatment;
-- messy foliage detail → grouped enamel masses.
+- Identity Cells: **40%–55%**;
+- Flow Cells: **75%–95%**;
+- Quiet Cells: **20%–35%**.
 
-Do not convert:
-- subject identity;
-- composition;
-- pose;
-- object count;
-- environment identity;
-- viewpoint;
-- spatial relationships.
+Flow Cells are the most ornate and should carry much of the skill’s beauty.
 
-## 6. Gold-line discipline
+Quiet Cells should still look polished and luminous, not unfinished.
 
-Gold is structural, not a blanket effect.
+## 7. Source-aware color, not literal dullness
 
-Use gold or warm brass mainly for cell boundaries, contour partitions, selected garment structure, architectural edges, and existing ornament details.
+Preserve source hue identity, but do not remain trapped by dull source rendering.
 
-Avoid global gold wash, excessive glitter, random filigree, invented jewelry, decorative flourishes, or outlining every tiny texture fragment.
+Good:
+- dark blue → refined sapphire, cobalt, or lapis enamel;
+- white → pearl white or ivory white;
+- pale lavender → cleaner luminous lavender;
+- icy scenes → brighter icy translucency;
+- dark costumes → deep polished enamel with readable highlights rather than a flat black mass.
 
-## 7. Detail compression
+Bad:
+- forcing all images into the same palette;
+- making every scene blue-white-gold;
+- keeping muddy dark values just because they were in the source;
+- neon oversaturation;
+- washing all colors into pale pastels.
 
-Good simplification:
-- one tree canopy → several grouped green cells;
-- long hair → flowing segmented ribbons;
-- stone wall → larger geometric panels;
-- dragon scales → repeated readable enamel units.
+## 8. No photography residue
 
-Bad simplification:
-- deleting important objects;
-- changing pose;
-- flattening faces beyond recognition;
-- replacing background identity.
+The final output should not feel like a filtered photo.
 
-## 8. Source-aware color
+Remove or avoid:
+- sensor noise;
+- film grain;
+- realistic pores;
+- random foliage noise;
+- lens blur;
+- photographic flare;
+- low-level CGI texture.
 
-Do not force all images into the same palette.
+Use enamel surfaces, polished glaze, and stylized material shading instead.
 
-Retain dominant hue relationships and preserve 1–3 identity-defining colors wherever possible.
+## 9. Beauty threshold
 
-Examples:
-- green field remains predominantly green;
-- lavender clothing remains lavender/white;
-- red roof remains recognizably red;
-- black dragon remains dark if identity-defining.
+A successful Cloisonne Dream output should not only be faithful. It should also feel more beautiful, polished, luminous, and collectible than the source.
 
-## 9. No photography residue
+If the result is accurate but visually underwhelming, increase:
+- luminosity;
+- internal partition richness;
+- Flow Cell detail;
+- surface elegance;
+- decorative refinement within existing objects;
+- highlight separation.
 
-Remove or avoid sensor noise, film grain, lens blur, chromatic aberration, realistic skin pores, camera flare, and photographic micro-lighting texture.
+Do not solve underwhelming results by inventing new scene objects.
 
-Use enamel highlights and stylized material shading instead.
-
-## 10. Consistency test
+## 10. Final consistency test
 
 A successful output should satisfy all of these:
 - the source is still immediately traceable;
 - the medium is clearly non-photographic;
+- the result is brighter and more luminous than a literal conversion where appropriate;
 - Identity / Flow / Quiet hierarchy is visible;
 - one or two Gold-Line Continuity paths feel intentional;
-- no invented decorative object steals attention;
-- source colors remain recognizable;
+- Flow Cells are visibly richer than Quiet Cells;
+- existing surfaces are artistically upgraded without new scene-level inventions;
+- source colors remain recognizable but more enamel-like;
 - the image reads as cloisonne enamel rather than stained glass;
 - the visual language remains clean at thumbnail size.
