@@ -1,0 +1,4 @@
+interface:
+  display_name: "Cloisonne Dream"
+  short_description: "Turn images into source-faithful gold-wire cloisonne enamel art"
+  default_prompt: "Use $cloisonne-dream to transform each uploaded image into a separate Cloisonne Dream enamel artwork while preserving the source scene and applying Identity, Flow, Quiet zoning with Gold-Line Continuity."
