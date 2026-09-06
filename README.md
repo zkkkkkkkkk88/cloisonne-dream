@@ -1,19 +1,23 @@
 # Cloisonne Dream
 
-A reusable image-restyling skill that converts a source image into a **modern gold-wire cloisonne enamel illustration** while keeping the original scene, subjects, composition, and spatial relationships faithful.
+A reusable image-restyling skill that converts a source image into a **modern luminous gold-wire cloisonne enamel illustration** while keeping the original scene, subjects, composition, and spatial relationships faithful.
 
-> **Core principle: change the medium, not the scene.**
+> **Core principle: preserve the scene, redesign the surface.**
 
-## What makes v0.2 distinctive
+## What makes v0.3 distinctive
 
-Cloisonne Dream is not just a material filter. Version 0.2 introduces a fixed visual grammar inspired by strong image-transformation skills:
+Cloisonne Dream is not just a material filter. Version 0.3 combines strict scene fidelity with bold surface-level art direction:
 
-- **Identity Cells** — recognition-critical areas such as faces, landmark silhouettes, dragon heads, or signature objects. These use restrained line density.
-- **Flow Cells** — directional forms such as hair, clothing folds, wings, scales, roads, water, branches, or cloud motion. These use the richest enamel segmentation.
-- **Quiet Cells** — sky, walls, distant background, shadow masses, and other calm surfaces. These stay broad and sparse.
+- **Identity Cells** — recognition-critical areas such as faces, landmark silhouettes, dragon heads, or signature objects. These stay readable and controlled.
+- **Flow Cells** — directional forms such as hair, clothing folds, wings, scales, roads, water, branches, or cloud motion. These carry the richest and most decorative enamel segmentation.
+- **Quiet Cells** — sky, walls, distant background, shadow masses, and other calm surfaces. These remain broader and less dense, but still polished and luminous.
 - **Gold-Line Continuity** — one or two source-derived gold-line paths visually connect existing forms across the composition without inventing new objects.
+- **Surface Creativity** — existing dresses, scales, wings, ice, water, architecture, foliage, and other surfaces may be made much more ornate and jewel-like as long as the scene itself is not rewritten.
+- **Luminous Enamel Uplift** — source colors remain recognizable, but the result is allowed to become brighter, clearer, more radiant, and more premium than the raw source.
 
-The goal is a repeatable visual system: **Identity → Flow → Quiet**, rather than applying the same gold outline everywhere.
+The repeatable visual system is now:
+
+**Scene Fidelity → Identity / Flow / Quiet → Gold-Line Continuity → Bold Surface Redesign → Luminous Enamel Finish**
 
 ## Showcase
 
@@ -40,13 +44,15 @@ The goal is a repeatable visual system: **Identity → Flow → Quiet**, rather 
   </tr>
 </table>
 
-These examples show the material family. Future v0.2 examples should additionally demonstrate the Identity / Flow / Quiet hierarchy and Gold-Line Continuity more explicitly.
+These examples show the material family. v0.3 further emphasizes brighter overall rendering, richer Flow Cell ornament, and strict separation between **new scene objects** and **surface decoration embedded in existing objects**.
 
 ## What it is
 
 Cloisonne Dream is designed for image-to-image restyling where photographic or CGI micro-texture is undesirable. It replaces photo-like detail with clean enamel color fields, fine metallic partition lines, controlled glazed highlights, and handcrafted visual structure.
 
-The style is intentionally strict: it should not invent suns, moons, clouds, birds, flowers, stars, buildings, ornaments, or other decorative scene elements unless they already exist in the source image or the user explicitly asks for them.
+The style is intentionally strict at the scene level: it should not invent suns, moons, birds, stars, buildings, creatures, flowers, or other independent decorative elements unless they already exist in the source image or the user explicitly asks for them.
+
+At the surface level, however, it is intentionally bold: existing clothing, scales, wings, water, ice, architecture, foliage, and other materials may receive richer internal enamel redesign.
 
 ## Repository structure
 
@@ -88,23 +94,27 @@ For distribution, this repository is also packaged as a skill-only plugin throug
 The skill should:
 
 - preserve subject count, identity-defining features, pose, viewpoint, framing, and scene layout;
-- preserve important source colors unless stylization requires small material adjustments;
+- preserve important source hue relationships while allowing a brighter luminous enamel uplift;
 - separate the scene into Identity, Flow, and Quiet zones;
 - concentrate line richness in directional Flow Cells rather than outlining everything equally;
 - create one or two meaningful Gold-Line Continuity paths from existing geometry;
+- allow bold internal surface redesign inside existing objects;
 - convert photographic micro-detail into enamel cells and controlled linework;
 - remove camera noise, grain, skin pores, and random photo texture;
-- avoid unrelated decorative invention;
+- avoid unrelated scene-level decorative invention;
 - remain clearly non-photographic and recognizably part of one consistent visual family.
 
 ## Golden rule for additions
 
-**If an object or motif is absent from the source, do not add it merely because it looks appropriate for cloisonne, fantasy, Chinese decorative art, or enamel illustration.**
+**Do not add a new scene object just because it looks decorative.**
 
-If the source really contains a sun, moon, bird, cloud, flower, snowflake, or similar element, preserve and restyle it normally.
+A motif is acceptable when:
+- it genuinely exists in the source; or
+- the user explicitly requests it; or
+- it remains embedded as internal surface decoration within an existing source object.
 
 ## Version
 
-Current draft: **0.2.0**
+Current draft: **0.3.0**
 
-Version 0.2 adds a distinctive structural grammar and regression criteria on top of the original source-fidelity and enamel-material rules.
+Version 0.3 adds a brighter luminous finish, stronger ornamental Flow Cells, and a clear rule: **scene structure stays conservative; existing surfaces may be boldly redesigned.**
