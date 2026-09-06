@@ -11,15 +11,15 @@ description: Use when an uploaded image should be transformed into a consistent,
 - Stylize the entire final canvas. Do not show the original image or create a before/after split unless the user explicitly asks for one.
 - Process multiple uploaded images separately unless the user explicitly requests a collage.
 - Before generation, lock all defining source facts: subject count, pose, direction, major proportions, architecture or terrain structure, occlusions, left/right relationships, and viewpoint.
-- Do not invent a location, date, attribution, symbol, landmark, character, creature, or decorative scene element.
+- Preserve the scene's core narrative and subject hierarchy.
 
 ## Core principle
 
-**Preserve the scene. Redesign the surface.**
+**Preserve the scene. Redesign the surface. Add decoration with intent.**
 
-Cloisonne Dream is not a plain material filter and not a scene rewrite.
+Cloisonne Dream is not a plain material filter and not a free scene rewrite.
 
-Keep the source immediately recognizable at the scene level, while boldly redesigning the surfaces of existing objects into a brighter, more luminous, more ornate, and more collectible cloisonne enamel artwork.
+Keep the source immediately recognizable at the scene level, while boldly redesigning existing surfaces into a brighter, more luminous, more ornate, more collectible cloisonne enamel artwork. A limited decorative motif layer is allowed when it strengthens the enamel identity and composition.
 
 ## Fixed visual specification
 
@@ -43,7 +43,7 @@ Use these for directional or rhythmic forms already present in the source: hair,
 - Segment forms into elongated, curved, layered, faceted, or rhythmically repeating enamel cells that follow the source's actual direction, anatomy, perspective, and motion.
 - The linework should feel intentionally designed, not mechanically traced.
 - Flow Cells carry most of the signature luxury and visual energy of Cloisonne Dream.
-- Existing objects may be artistically enriched here through more elaborate internal cloisonne partitioning.
+- Existing objects may be artistically enriched through more elaborate internal cloisonne partitioning.
 
 ### 3. Quiet Cells
 
@@ -52,7 +52,7 @@ Use these for visually calm areas: sky, walls, distant background, broad terrain
 - Keep line density lower, roughly **20%–35%** of maximum.
 - Use larger enamel fields and fewer partitions.
 - Quiet Cells must still feel polished, luminous, and finished, not empty or dull.
-- They provide breathing room while preserving a premium decorative finish.
+- They provide breathing room and also provide the preferred locations for restrained decorative motifs.
 
 The final image should visibly balance **Identity → Flow → Quiet** rather than treating every object with the same outline density.
 
@@ -69,8 +69,8 @@ Examples:
 Rules:
 - continuity must follow geometry, motion, perspective, or contour already present in the source;
 - it may pass from one source object into another only as a compositional continuation;
-- it must never invent a new object, symbol, sun, cloud motif, flower, ornament, creature, or decorative flourish;
-- continuity is structural, not random filigree.
+- continuity is structural, not random filigree;
+- decorative motifs may echo the same direction, but must remain secondary.
 
 ## Scene fidelity vs. surface redesign
 
@@ -92,11 +92,11 @@ Preserve:
 
 Do not:
 - add a second creature;
-- invent a building;
+- invent a major building;
 - move the character into another pose;
 - reverse the composition;
 - replace the environment;
-- add new symbolic scene objects.
+- introduce a new narrative focal subject.
 
 ### B. Surface-level redesign — bold
 
@@ -109,7 +109,42 @@ Allowed examples:
 - ice, water, snow, clouds, leaves, and architecture surfaces may become more decorative and art-directed;
 - folds, armor seams, bark, stone panels, or fabric borders may become more elegant and intricate.
 
-Important: these enhancements must stay **inside existing source objects or existing surface regions**. They must not become new independent scene objects.
+These enhancements should remain visually attached to existing source forms.
+
+## Decorative Enamel Motif Layer
+
+Cloisonne Dream v0.4 may add a **limited decorative motif layer** to increase beauty, completeness, and recognizable cloisonne character.
+
+Allowed motif families include:
+- one stylized sun disc or moon disc;
+- a small number of star, celestial sparkle, or snow-crystal motifs;
+- stylized cloud bands or auspicious cloud ribbons;
+- floral or leaf emblems;
+- geometric ornamental bands or framing accents;
+- tiny flat ornamental bird silhouettes when they read as pattern rather than new narrative creatures.
+
+Rules:
+- use **at most one dominant motif anchor**;
+- supporting motifs must remain sparse and secondary;
+- motif type must match the source mood, palette, and subject;
+- motif placement must respond to negative space and visual balance, not a fixed template;
+- do not place a sun in the same top-left corner by default;
+- motifs must not cover faces, dragon heads, hands, important props, architecture anchors, or other Identity Cells;
+- motifs must not become larger or more visually important than the main subject;
+- motifs should look like enamel ornament integrated into the artwork, not realistic new objects inserted into the scene;
+- repeated outputs should vary motif choice and placement according to composition.
+
+Good use:
+- a white dragon in a bright sky may support one elegant sun disc in an open region;
+- an ice queen may support crystalline stars or snowflake emblems;
+- a garden scene may support a restrained moon disc, floral emblem, or cloud band if compositionally appropriate.
+
+Bad use:
+- the same sun disc in every image;
+- several large celestial symbols competing for attention;
+- adding a second dragon, new tower, new person, or major prop;
+- covering the subject with decorative motifs;
+- using motifs unrelated to the scene's mood.
 
 ## Material language
 
@@ -139,15 +174,15 @@ Convert:
 
 ## Brightness and luminous uplift
 
-The overall result should usually be **brighter, clearer, and more luminous than the raw source**, while preserving source identity and avoiding overexposure.
+The overall result should usually be **brighter, clearer, and more luminous than the raw source**, while preserving source identity and enough deep values for contrast.
 
 Apply a controlled **luminous enamel uplift**:
 - preserve hue identity, but allow the output to become cleaner, brighter, and more radiant;
 - lift muddy or excessively dark tones into richer enamel values where appropriate;
 - allow more pearl-white, ivory, pale translucent glaze, and jewel-like highlight separation;
 - increase perceived clarity, luminosity, and finish;
-- preserve the source's dominant color family while improving elegance and readability;
-- keep enough deep values for contrast so the image does not become washed out.
+- keep strong highlights on enamel edges, transparent wings, ice, water, polished armor, and decorative motifs where appropriate;
+- preserve the source's dominant color family while improving elegance and readability.
 
 Examples:
 - dark blue → richer cobalt, sapphire, or lapis enamel;
@@ -170,31 +205,22 @@ Build the palette from the current source image.
 - Preserve overall warm/cool relationships and value hierarchy.
 - Gold is primarily structural partition material and accent detail, not a global color filter.
 - The final palette may be more elegant, luminous, and enamel-like than the source.
-- Keep color relationships premium, refined, and readable.
+- Decorative motifs should use colors already compatible with the image rather than creating a disconnected palette.
 
-## Content fidelity and forbidden invention
+## Controlled invention boundaries
 
-Source content has priority at the scene level.
+At the scene-object level, source content still has priority.
 
-Unless already present in the source or explicitly requested, do not add:
-- sun or golden sun disc;
-- moon;
-- stars or celestial symbols;
-- birds;
-- clouds or stylized auspicious cloud motifs;
-- flowers;
-- mountains;
-- lanterns;
-- gemstones floating independently in space;
-- snowflake symbols floating independently in space;
-- extra vegetation;
-- extra buildings;
-- extra characters or creatures;
-- ornamental emblems that change the scene meaning.
+Do not add:
+- new characters;
+- new major creatures;
+- extra buildings that change the environment;
+- additional large landscape masses;
+- new vehicles;
+- major props that introduce a new narrative;
+- extra vegetation that changes the setting.
 
-If one of these genuinely exists in the source, preserve and restyle it normally.
-
-If a decorative motif is used, it must remain embedded within an existing object surface, not appear as a newly added independent scene element.
+A limited ornamental motif layer is allowed under the rules above. It may include sun/moon discs, stars, cloud bands, snow-crystal motifs, floral emblems, geometric accents, or tiny non-narrative bird silhouettes.
 
 ## Composition rules
 
@@ -208,7 +234,7 @@ Do not:
 - rearrange buildings;
 - alter a defining pose;
 - replace the background identity;
-- introduce a new focal point.
+- introduce a new focal point stronger than the original subject.
 
 Minor simplification is allowed only to improve enamel readability.
 
@@ -223,6 +249,7 @@ It should be recognizable by all of these together:
 - intentionally uneven line density;
 - one or two Gold-Line Continuity paths;
 - bold internal surface redesign of existing objects;
+- one restrained, composition-aware decorative motif layer when useful;
 - source-aware enamel palette;
 - clean non-photographic rendering.
 
@@ -240,6 +267,7 @@ Avoid:
 - stained-glass appearance;
 - generic fantasy concept art;
 - random gold filigree;
+- repetitive template motifs;
 - equal outline density everywhere;
 - overly empty or under-decorated surfaces;
 - dull dark rendering;
@@ -255,12 +283,14 @@ Before generation, verify:
 4. Which one or two source-derived directions can support Gold-Line Continuity?
 5. Which colors are identity-defining and must be preserved?
 6. Which existing objects can be made more beautiful through internal enamel redesign?
-7. Which tempting decorative additions must be explicitly avoided?
+7. Would one decorative motif anchor improve the composition? If yes, which motif and where?
 8. How can the final image be made brighter and more luminous without breaking source identity?
 
 After generation, reject and regenerate if:
-- a new decorative scene object appears;
+- a new major scene object appears;
 - the source pose, viewpoint, count, or structure changed materially;
+- the decorative motif becomes the main focal point;
+- a default sun or identical ornament keeps appearing in the same location across unrelated images;
 - the output looks like stained glass or a gold-outline filter;
 - every region has similar line density;
 - no readable Identity / Flow / Quiet hierarchy exists;
